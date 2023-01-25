@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&display=swap');
+
+.BannerMainContainer {
+    background-color: #eef2f3;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    overflow: hidden;
+}
+
+.leftAdd {
+    background-color: #eef2f3;
+    width: 36%;
+    float: left;
+    margin: 2%;
+    height: 80vh;
+}
+
+.rightAdd {
+    background-color: #eef2f3;
+    width: 56%;
+    float: left;
+    margin: 2%;
+    height: 80vh;
+    padding-top: 5rem;
+
+}
+
+.caroContent {
+    width: 79%;
+    /* height: 50vmin; */
+    margin: auto;
+    /* background-color: antiquewhite; */
+    margin-top: 2rem;
+    max-width: 500px;
+    padding-top: 12rem;
+}
+
+.MainTXT {
+    color: #6492e2;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    text-decoration: overline;
+}
+
+#subTXT {
+    color: #02193f9d;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    margin-top: 2rem;
+}
+
+.button {
+    background-color: #6492e2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2rem;
+    border-radius: 15px;
+    margin-left: 8rem;
+
+
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 720px) {
+    .leftAdd {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .caroContent {
+        width: 90%;
+        margin: auto;
+        padding-top: 3rem;
+        padding-bottom: -4rem;
+    }
+
+    .rightAdd {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .MainTXT {
+        font-size: 30px;
+        text-decoration: overline;
+        text-align: left;
+        margin-left: 3rem;
+
+    }
+
+    #subTXT {
+        margin: 2rem;
+        text-align: left;
+    }
+    .button {
+    margin-left:2rem;
+    margin-bottom: 2rem;
+    }
+}
